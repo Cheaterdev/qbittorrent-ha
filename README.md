@@ -5,6 +5,7 @@ Based on official home-assistant integration
 
 ## Features
 - Sensors from oficial integration: status, download, upload
+
 New:
 - Pause all service
 - Pesume all service
@@ -32,14 +33,14 @@ Configuration variables:
 
 ## Services
 
-#custom_qbittorrent.pause_downloads
+custom_qbittorrent.pause_downloads
 ```json
 {
 	"name": "qBittorrent"
 }
 ```
 
-#custom_qbittorrent.resume_downloads
+custom_qbittorrent.resume_downloads
 ```json
 {
 	"name": "qBittorrent"
